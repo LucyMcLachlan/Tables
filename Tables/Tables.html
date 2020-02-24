@@ -1,0 +1,86 @@
+<!DOCTYPE html> 
+
+<html> 
+
+<head>
+	<title>Tables</title>
+	<style>
+	
+		body {
+			background-color: #ffff66;
+			background-image: url('bg.png');
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+			background-position:   center;
+					
+		}
+		
+		div {
+			background-color: white;
+			border:			  5px solid salmon;
+			box-shadow:		  10px 15px 40px gray;
+			padding: 		  20px;
+			position:         absolute;
+			right:            40px;
+			top:              40px;
+			width:            400px;
+			border-radius: 	  5px;
+		}
+		table, th, td{
+			text-align: center;
+		}
+		table {
+			border-collapse: collapse;
+			width: 400px
+		}
+		th, td{
+			padding: 10px;
+		}
+		th:hover{
+			background-color:lightsteelblue;
+		}
+		td:nth-child(even){
+			background-color: peachpuff;
+		}
+		td:nth-child(even):hover{
+			background-color: darksalmon;
+		}
+		td:nth-child(odd):hover{
+			background-color: lightblue;
+		}
+	</style>
+	
+</head>
+
+<body> 
+	<div>
+	<table>
+	<tr>
+		<th>Name</th> <th>Height</th>	<th>Type(s)</th> <th>Weigth</th> <th>Base Friendship</th> 
+	</tr>
+	<tr>
+		<td>Staryu</td> <td> 0.8m</td> <td> Water</td> <td> 34.5kg</td> <td> 70</td> 
+	</tr>
+	<tr>
+		<td>Physduck</td> <td> 0.8m</td> <td>Water</td> <td> 19.6kg</td> <td> 70</td> 
+	</tr>
+	<tr>
+		<td>Togepi</td> <td> 0.3m</td> <td> Fairy</td> <td> 1.5kg</td> <td> 70</td> 
+	</tr>
+	<tr>
+		 <td>Goldeen</td> <td> 0.6m</td> <td> Water</td> <td> 15kg</td> <td> 70</td> 
+	</tr>
+	<tr>
+		 <td>Seaking</td> <td> 	1.6m</td> <td> Water</td> <td> 39kg </td> <td> 70</td> 
+	</tr>
+	<tr>
+		 <td>Gyarados</td> <td>	6.5m</td> <td>Water, Flying</td> <td> 235kg</td> <td> 70</td> 
+	
+	</table>
+	</div>
+
+
+</body>
+
+</html>
